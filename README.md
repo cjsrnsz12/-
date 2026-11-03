@@ -2,6 +2,15 @@
 
 이 저장소는 어비스 도우미 APK 및 최신 버전 정보를 제공합니다.
 
-업데이트 주소: https://raw.githubusercontent.com/cjsrnsz12/-/main/latest.json
+현재 배포 버전: **1.2.5** (버전 코드 26)
 
-APK 업로드를 준비 중입니다. latest.json이 등록되기 전에는 배포가 완료된 상태가 아닙니다.
+- [최신 APK 다운로드](https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk)
+- [업데이트 정보](https://raw.githubusercontent.com/cjsrnsz12/-/main/latest.json)
+
+1.2.5에는 기본 업데이트 주소와 새 버전 출시 알림, 버전별 중복 알림 방지, 백그라운드 확인이 포함됩니다. 설치 후 앱을 한 번 열고 알림을 허용하세요.
+
+앱 실행 시 및 도우미 활성 중 약 1분마다 확인하며, 백그라운드에서는 약 15분 주기로 확인하도록 예약합니다. 절전 정책·네트워크·강제 종료 상태에 따라 확인이 지연되거나 중단될 수 있습니다. 다운로드와 설치는 사용자가 확인합니다.
+
+향후 새 APK를 먼저 업로드하고, latest.json의 versionCode를 높여 버전명·APK 주소·변경 내용을 갱신하면 설치된 앱이 새 버전을 감지합니다.
+
+실제 Android 기기에서 설치·백그라운드 알림 동작은 아직 검증하지 않은 테스트 버전입니다.
