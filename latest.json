@@ -1,6 +1,6 @@
 {
-  "versionCode": 28,
-  "versionName": "1.2.7",
+  "versionCode": 29,
+  "versionName": "1.2.8",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseNotes": "뱅가드 선택 상태를 글자 주변의 흰색 발광 배경으로 확인하도록 수정. 어두운 미선택 탭은 선택 후 흰색 상태를 재확인하고 다음 단계 진행. 기본 클리어 3회 종료 유지."
+  "releaseNotes": "뱅가드 버튼을 글자 OCR 외에 원본 이미지와 여섯 탭 배치로 직접 탐색하도록 수정. 탭 위치 변화와 뱅/방 오인식·줄 병합 대응, 흰 배경 선택 재확인. 기본 클리어 3회 종료 유지."
 }
