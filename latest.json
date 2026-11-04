@@ -1,6 +1,6 @@
 {
-  "versionCode": 29,
-  "versionName": "1.2.8",
+  "versionCode": 30,
+  "versionName": "1.2.9",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseNotes": "뱅가드 버튼을 글자 OCR 외에 원본 이미지와 여섯 탭 배치로 직접 탐색하도록 수정. 탭 위치 변화와 뱅/방 오인식·줄 병합 대응, 흰 배경 선택 재확인. 기본 클리어 3회 종료 유지."
+  "releaseNotes": "빠른 매칭의 파티 찾기 화면에서 매칭하기를 기다리던 문제 수정. 뱅가드 탭을 좌우 전체에서 탐색하고 가로 스크롤 및 제목/탭 OCR 누락 대응. 영상 프레임으로 입장 흐름 검사. 기본 클리어 3회 종료 유지."
 }
