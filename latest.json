@@ -1,6 +1,6 @@
 {
-  "versionCode": 26,
-  "versionName": "1.2.5",
+  "versionCode": 27,
+  "versionName": "1.2.6",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseNotes": "기본 GitHub 업데이트 주소 등록. 새 버전 출시 안내·버전별 중복 알림 방지·백그라운드 업데이트 확인 추가."
+  "releaseNotes": "뱅가드 모드 추가. 첫 입장·전투 대기·클리어 후 다시 하기 반복. 기본 클리어 3회 확인 시 자동 종료하며 설정에서 횟수 변경 가능."
 }
