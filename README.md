@@ -2,10 +2,12 @@
 
 이 저장소는 어비스 도우미 APK 및 최신 버전 정보를 제공합니다.
 
-현재 배포 버전: **1.2.6** (버전 코드 27)
+현재 배포 버전: **1.2.7** (버전 코드 28)
 
 - [최신 APK 다운로드](https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk)
 - [업데이트 정보](https://raw.githubusercontent.com/cjsrnsz12/-/main/latest.json)
+
+1.2.7에서는 뱅가드 글자 주변의 **흰색 발광 배경이 확인될 때만 선택됨**으로 처리합니다. 어두운 배경이면 탭을 누르고 다음 화면에서 선택 상태를 다시 확인합니다. 이미 선택되었으면 탭을 다시 누르지 않습니다.
 
 ## 뱅가드 사용 방법
 
