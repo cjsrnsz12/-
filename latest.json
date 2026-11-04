@@ -1,6 +1,6 @@
 {
-  "versionCode": 30,
-  "versionName": "1.2.9",
+  "versionCode": 31,
+  "versionName": "1.2.10",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseNotes": "빠른 매칭의 파티 찾기 화면에서 매칭하기를 기다리던 문제 수정. 뱅가드 탭을 좌우 전체에서 탐색하고 가로 스크롤 및 제목/탭 OCR 누락 대응. 영상 프레임으로 입장 흐름 검사. 기본 클리어 3회 종료 유지."
+  "releaseNotes": "뱅가드 전투 도중 시작해도 전투 화면을 연속 확인하면 전투 중 대기로 전환. 이후 인식 누락 시에도 입장 메뉴를 누르지 않고 클리어 대기. 진행 중 전투의 클리어부터 집계하며 기본 3회 종료 유지."
 }
