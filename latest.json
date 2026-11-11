@@ -1,16 +1,18 @@
 {
-  "versionCode": 45,
-  "versionName": "1.2.24",
+  "versionCode": 46,
+  "versionName": "1.2.25",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "fix",
-  "headline": "어비스 입장 인식 수정",
+  "headline": "파티 재입장 수정",
   "highlights": [],
   "improvements": [
-    "상세 화면 인식 개선"
+    "파티 보상 버튼 인식 개선"
   ],
   "fixes": [
-    "우연한 만남 스위치 인식 수정",
-    "재입장 화면 오인식 방지"
+    "S7 파티 재입장 처리 수정",
+    "입장 상태 전환 수정"
   ],
-  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.24\n\n• 어비스 입장 인식 수정\n\n• 우연한 만남 스위치 인식 개선\n\n• 재입장 화면 오인식 방지\n\n※ 제어한 OCR·합성 화면 검사를 통과했습니다. 실제 실패 화면과 실기기 입장 성공은 아직 미검증입니다."
+  "releaseNotes": "S7 파티 재입장 수정\n\n파티 보상 버튼 인식 개선\n\nS7 터치·매칭 가상 반복 검사 통과. 실제 기기 동작은 미검증입니다.",
+  "updateType": "fix",
+  "features": []
 }
