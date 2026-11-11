@@ -1,18 +1,15 @@
 {
-  "versionCode": 46,
-  "versionName": "1.2.25",
+  "versionCode": 47,
+  "versionName": "1.2.26",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "fix",
-  "headline": "파티 재입장 수정",
+  "releaseType": "improvement",
+  "headline": "냐크로로 이름 변경",
   "highlights": [],
   "improvements": [
-    "파티 보상 버튼 인식 개선"
+    "앱 이름 냐크로로 변경"
   ],
-  "fixes": [
-    "S7 파티 재입장 처리 수정",
-    "입장 상태 전환 수정"
-  ],
-  "releaseNotes": "S7 파티 재입장 수정\n\n파티 보상 버튼 인식 개선\n\nS7 터치·매칭 가상 반복 검사 통과. 실제 기기 동작은 미검증입니다.",
-  "updateType": "fix",
+  "fixes": [],
+  "releaseNotes": "앱 이름이 ‘냐크로’로 변경되었습니다.",
+  "updateType": "improvement",
   "features": []
 }
