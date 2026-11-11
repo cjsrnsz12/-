@@ -1,16 +1,15 @@
 {
-  "versionCode": 40,
-  "versionName": "1.2.19",
+  "versionCode": 41,
+  "versionName": "1.2.20",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "fix",
-  "headline": "앱 연결 및 스크롤 개선",
+  "releaseType": "improvement",
+  "headline": "화면 분석 최적화",
   "highlights": [],
   "improvements": [
-    "앱 연결에 마비노기 모바일만 표시"
+    "반복 픽셀 읽기 감소",
+    "화면별 분석 캐시 용량 제한",
+    "어비스·레이드·뱅가드 반복 시뮬레이션 검증"
   ],
-  "fixes": [
-    "게임 선택 목록 스크롤 오류 수정",
-    "진행 기록 창 스크롤 개선"
-  ],
-  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.19\n\n• 게임 선택 목록 스크롤 오류 수정\n\n• 앱 연결에 마비노기 모바일만 표시\n\n• 진행 기록 창 스크롤 개선"
+  "fixes": [],
+  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.20\n\n• 화면 분석 최적화\n\n• 불필요한 픽셀 읽기 감소\n\n• 어비스·레이드·뱅가드 반복 시뮬레이션 검증\n\n※ 실제 기기에서의 게임 실행은 검증 전입니다."
 }
