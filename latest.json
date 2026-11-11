@@ -1,20 +1,16 @@
 {
-  "versionCode": 42,
-  "versionName": "1.2.21",
+  "versionCode": 43,
+  "versionName": "1.2.22",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "improvement",
-  "headline": "태블릿 화면 대응",
-  "highlights": [
-    "태블릿 화면 비율 자동 보정",
-    "게임 창 위치에 맞춘 터치 좌표 변환"
-  ],
+  "releaseType": "fix",
+  "headline": "태블릿 화면 인식 수정",
+  "highlights": [],
   "improvements": [
-    "가로 기기 안의 세로 게임 창 인식",
-    "태블릿 아이콘·뱅가드 탭 인식 개선",
-    "창 이동·크기 변경 후 화면 재확인"
+    "화면 비율을 유지한 인식",
+    "상·하단 버튼 위치 보정"
   ],
   "fixes": [
-    "저해상도 음식 버프 오인식 개선"
+    "태블릿 퀘스트·스킬·보상 인식 개선"
   ],
-  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.21\n\n• 갤럭시 탭 화면 대응 추가\n\n• 화면 비율·터치 좌표 자동 보정\n\n• 태블릿 아이콘 인식 개선\n\n• 창 이동·크기 변경 대응\n\n※ Android 11 이상 ARM64·세로 게임 화면 기준입니다. 모든 모델의 실기기 동작은 미검증이며 가로 게임 UI는 지원하지 않습니다."
+  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.22\n\n• 태블릿 화면 인식 수정\n\n• 화면 비율·버튼 위치 보정 개선\n\n※ 세로 게임 화면 기준입니다. 합성 화면 검사를 통과했으며 태블릿 실기기 OCR·터치는 미검증입니다."
 }
