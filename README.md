@@ -7,6 +7,14 @@
 - [최신 APK 다운로드](https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk)
 - [업데이트 정보](https://raw.githubusercontent.com/cjsrnsz12/-/main/latest.json)
 
+## 레노버 Y700 5세대 대응 확인
+
+Y700 5세대의 공식 3040×1904 해상도(세로 1904×3040)를 태블릿 검사 프로필에 추가했습니다. 기존 **v1.2.21**의 자동 창 보정을 그대로 사용하므로 별도 APK 업데이트는 필요하지 않습니다. Android 11 이상 ARM64·세로 게임 화면 기준이며, 가로 기기 안의 세로 게임 창도 검사했습니다.
+
+추가 해상도 재생 89개/판정·좌표 검사 3,340개, 확대된 창·아이콘 재생 76개와 좌표·창 변경 검사 309개를 통과했습니다. **Y700 실기기, Lenovo 펌웨어의 접근성 권한·실제 게임 렌더링·OCR·터치는 미검증입니다. 가로 게임 UI는 지원하지 않습니다.**
+
+공식 사양: [Lenovo Y700 5세대](https://item.lenovo.com.cn/product/1053086.html), [Lenovo Legion Tab (8.8\", 5) PSREF](https://psref.lenovo.com/Product/Lenovo_Tablets/Legion_Tab_8_8_5).
+
 ## 1.2.21 태블릿 화면 대응
 
 지원 기준은 **Android 11(API 30) 이상 ARM64와 세로 게임 레이아웃**입니다. 기기 모델을 열거하는 대신 게임 창의 실제 크기·위치를 읽어 분석과 터치 좌표를 변환합니다. **모든 갤럭시 탭 모델의 실제 작동을 보증하지 않습니다.** 구형 Android/32비트 기기, 게임이 실행되지 않는 하드웨어는 지원 범위에 들어가지 않습니다.
