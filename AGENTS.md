@@ -1,4 +1,10 @@
-# 현재 릴리스: 1.2.25 S7 파티 재입장
+# 현재 릴리스: 1.2.26 냐크로
+
+사용자가 앱 이름을 ‘냐크로’로 변경하도록 요청했습니다. application/service label은 버전 번호 없이 정확히 ‘냐크로’입니다. MainActivity 상단·기본 홈 제목·권한 안내·실행 안내·업데이트 알림·로그 복사 제목도 바꿨습니다. 사용자가 직접 정한 ui_title은 초기화하지 않습니다. 패키지 kr.abyss.helper, action 이름, 설정 키, 업데이트 URL과 기존 서명을 유지합니다. 게임 판정·상태 머신 변경은 없습니다.
+
+versionCode 47, versionName 1.2.26입니다. build1226.py는 기존 merged-baseline의 application/service 라벨을 직접 ‘냐크로’로 치환합니다. 단순히 소스 AndroidManifest.xml만 바꿔서는 실제 배포 APK가 바뀌지 않으므로 APK badging/xmltree 검증도 유지하세요. validation/rename26-build.log, rename26-ui-tests.log, rename26-source-review.json을 참고하세요. 기존 UI/업데이트 검사 296개와 전체 Android 컴파일·서명·정렬·ZIP 검증을 통과했습니다. 실제 기기 설치/표시는 미검증입니다.
+
+# 이전 릴리스: 1.2.25 S7 파티 재입장
 
 S7 파티플레이에서 다시 입장이 안 된다는 제보입니다. 새 화면·OCR 덤프·실기기가 없어 이번 실기기 원인을 확정했다고 주장하지 마세요. v1.2.24 Engine에서 ENTER → field → unknown → field → unknown → clear가 CLEAR를 반환하지 못하는 버그를 실제 baseline 소스로 재현했습니다(validation/party25-baseline.log).
 
