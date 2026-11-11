@@ -1,16 +1,16 @@
 {
-  "versionCode": 44,
-  "versionName": "1.2.23",
+  "versionCode": 45,
+  "versionName": "1.2.24",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "improvement",
-  "headline": "태블릿 호환성·최적화 개선",
+  "releaseType": "fix",
+  "headline": "어비스 입장 인식 수정",
   "highlights": [],
   "improvements": [
-    "Y700 5세대·갤럭시 탭 S7 호환성 개선",
-    "태블릿 인식·분석 부하 조절"
+    "상세 화면 인식 개선"
   ],
   "fixes": [
-    "상·하단 배치와 이동 버튼 인식 개선"
+    "우연한 만남 스위치 인식 수정",
+    "재입장 화면 오인식 방지"
   ],
-  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.23\n\n• Y700 5세대·갤럭시 탭 S7 호환성 개선\n\n• 태블릿 인식·최적화 개선\n\n※ Android 11 이상 ARM64·세로 게임 화면 기준입니다. 실기기 OCR·터치·FPS·발열·배터리는 미검증입니다."
+  "releaseNotes": "[안드로이드 매크로 업데이트]\nv1.2.24\n\n• 어비스 입장 인식 수정\n\n• 우연한 만남 스위치 인식 개선\n\n• 재입장 화면 오인식 방지\n\n※ 제어한 OCR·합성 화면 검사를 통과했습니다. 실제 실패 화면과 실기기 입장 성공은 아직 미검증입니다."
 }
