@@ -1,4 +1,12 @@
-# 현재 릴리스: 1.2.26 냐크로
+# 현재 릴리스: 1.2.27 고양이 모양 버튼
+
+사용자는 버튼을 고양이 모양으로 바꾸되 기능은 그대로 유지하도록 요청했습니다. CatButtonDrawable은 Path/Paint를 재사용해 귀와 수염을 그리고, CatButtons는 기존 Button의 배경만 native RippleDrawable로 바꿉니다. 핸들러·ID·포커스·접근성 역할·사각 터치 영역을 바꾸거나 setOnTouchListener를 추가하지 마세요. CompoundButton(스위치·체크박스)은 장식 대상에서 제외합니다. UiMotion.button은 CatButtons.ensure로 일반/나중 생성된 대화창 버튼도 잡되 기존 animation/listener 동작을 유지합니다.
+
+MainActivity/UpdateUi 공통 버튼과 MacroService 조작 버튼·떠 있는 아이콘에 적용합니다. 알림 RemoteViews는 기존 notice_button 리소스를 vector로 교체합니다. build1227.py는 해당 drawable을 따로 컴파일하고 기존 APK의 같은 res/drawable/notice_button.xml 위치에 넣습니다. 리소스 테이블/ID·나머지 자산과 의존성은 유지하며 비서명 ZIP 비교의 허용 목록은 manifest/classes3.dex/notice_button.xml 세 개입니다.
+
+버전 1.2.27 / code48. 검사는 validation/cat27-render.log(AWT 어댑터 72조합), cat27-ui-tests.log(296), cat27-behavior-review.json(콜백 12개·클래스 29개 동일), cat27-build.log입니다. Android 런타임이나 실제 터치 검사가 아니므로 클릭 성공·실기기 UI 검증을 주장하지 마세요. 게임 판정/상태 머신/시작·정지 기능 코드를 바꾸지 않았습니다.
+
+# 이전 릴리스: 1.2.26 냐크로
 
 사용자가 앱 이름을 ‘냐크로’로 변경하도록 요청했습니다. application/service label은 버전 번호 없이 정확히 ‘냐크로’입니다. MainActivity 상단·기본 홈 제목·권한 안내·실행 안내·업데이트 알림·로그 복사 제목도 바꿨습니다. 사용자가 직접 정한 ui_title은 초기화하지 않습니다. 패키지 kr.abyss.helper, action 이름, 설정 키, 업데이트 URL과 기존 서명을 유지합니다. 게임 판정·상태 머신 변경은 없습니다.
 
