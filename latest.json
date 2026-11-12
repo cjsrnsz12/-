@@ -1,15 +1,18 @@
 {
-  "versionCode": 48,
-  "versionName": "1.2.27",
+  "versionCode": 49,
+  "versionName": "1.2.28",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "improvement",
-  "headline": "고양이 모양 버튼",
+  "releaseType": "fix",
+  "headline": "파티 재입장·터치 복구",
   "highlights": [],
   "improvements": [
-    "고양이 모양 버튼 적용"
+    "던전 상세 화면 인식 개선"
   ],
-  "fixes": [],
-  "releaseNotes": "고양이 모양 버튼이 적용되었습니다.",
-  "updateType": "improvement",
+  "fixes": [
+    "입장 터치 취소 복구",
+    "이전 실행의 터치 응답 처리 수정"
+  ],
+  "releaseNotes": "파티 재입장 터치 복구\n\n던전 상세 화면 인식 개선",
+  "updateType": "fix",
   "features": []
 }
