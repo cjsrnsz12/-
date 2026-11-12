@@ -1,15 +1,15 @@
 {
-  "versionCode": 47,
-  "versionName": "1.2.26",
+  "versionCode": 48,
+  "versionName": "1.2.27",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "improvement",
-  "headline": "냐크로로 이름 변경",
+  "headline": "고양이 모양 버튼",
   "highlights": [],
   "improvements": [
-    "앱 이름 냐크로로 변경"
+    "고양이 모양 버튼 적용"
   ],
   "fixes": [],
-  "releaseNotes": "앱 이름이 ‘냐크로’로 변경되었습니다.",
+  "releaseNotes": "고양이 모양 버튼이 적용되었습니다.",
   "updateType": "improvement",
   "features": []
 }
