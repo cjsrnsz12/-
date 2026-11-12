@@ -1,4 +1,14 @@
-# 현재 릴리스: 1.2.27 고양이 모양 버튼
+# 현재 릴리스: 1.2.28 파티 재입장·터치 취소
+
+제공 로그는 혼자 다시하기 3회 이후 매칭/로딩이 이어지고, 파티 OTHER 후 55초 뒤 ENTER와 같은 초에 ‘터치 취소 · 다시 시작하세요’로 정지합니다. 로그에는 앱 버전·실제 화면·Android 취소 이유가 없으므로 정확한 하드웨어/인식 지연 원인을 확정하지 마세요. 기존 onCancelled가 running만 확인해 즉시 stop하고 실행/요청 식별을 안 하는 것은 코드로 확인했습니다.
+
+GestureGate는 generation 및 단조 증가 ticket을 사용합니다. 하나의 gesture만 허용하며 취소 후 1,200ms 재확인, 기존 Engine의 같은 action 2.5초 제한을 유지합니다. 재시도는 새로운 capture timestamp가 cooldown 이후인 프레임에만 허용합니다. 좌표/행동을 callback에서 재전송하지 않습니다. 3회 연속 실패는 stop, 성공은 실패 횟수 초기화, 4초 callback 누락은 stop입니다. replay 가능 whitelist는 GestureGate.retryable에 있으며 음식/궁극기/레이드 스킬 등 one-shot 및 미검토 행동은 취소 시 기존 stop을 유지합니다. dispatchGesture 예외도 정지로 처리합니다. start/stop/destroy/뱅가드 목표 종료에서 reset하고, 3개 모드의 handler는 step/count 전에 acceptsFrame을 확인합니다.
+
+AbyssEntryVision은 두 탭이 한 줄로 합쳐질 때 개별 together Rect가 없으면 오른쪽 탭의 실제 행에서 보라 선택 색이 확인되어야 상세로 진행합니다. 선택이 불명확하면 entryPanel만 유지하고 추정 좌표를 누르지 않습니다. 입장 두 줄 라벨은 기존 AbyssRewardVision.button의 정확한 하단 글자 결합을 사용합니다. unmodified 1.2.27에서 병합 헤더 실패를 재현한 로그는 validation/touch28-header-baseline.log입니다.
+
+versionCode49 / 1.2.28. 전체 회귀는 validation/touch28-final-tests.log, 빌드는 touch28-build.log, 새 검사는 GestureGateTest(3,039), AbyssMergedHeaderTest(90), S7GestureRecoveryTest(600회/33,601개)입니다. 제어한 OCR·콜백·합성 화면/가상 시간 검사이며 실제 Android AccessibilityService dispatchGesture 실행·OS 거절·S7 서버 매칭은 미검증입니다. 1.2.27의 고양이 버튼과 나머지 게임 엔진/반복 횟수는 유지합니다. build1228.py를 사용하세요.
+
+# 이전 릴리스: 1.2.27 고양이 모양 버튼
 
 사용자는 버튼을 고양이 모양으로 바꾸되 기능은 그대로 유지하도록 요청했습니다. CatButtonDrawable은 Path/Paint를 재사용해 귀와 수염을 그리고, CatButtons는 기존 Button의 배경만 native RippleDrawable로 바꿉니다. 핸들러·ID·포커스·접근성 역할·사각 터치 영역을 바꾸거나 setOnTouchListener를 추가하지 마세요. CompoundButton(스위치·체크박스)은 장식 대상에서 제외합니다. UiMotion.button은 CatButtons.ensure로 일반/나중 생성된 대화창 버튼도 잡되 기존 animation/listener 동작을 유지합니다.
 
