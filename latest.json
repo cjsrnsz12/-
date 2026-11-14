@@ -1,16 +1,16 @@
 {
-  "versionCode": 54,
-  "versionName": "1.2.33",
+  "versionCode": 55,
+  "versionName": "1.2.34",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "improvement",
   "updateType": "improvement",
-  "headline": "6번 스킬 무작위 자동 사용",
+  "headline": "삶은 계란 음식 인식 추가",
   "features": [],
   "highlights": [],
   "improvements": [
-    "어비스·레이드 6번 스킬 자동 사용",
-    "10~20초 무작위 간격 적용"
+    "삶은 계란 음식 아이콘 인식 추가",
+    "기존 음식 인식 유지"
   ],
   "fixes": [],
-  "releaseNotes": "어비스·레이드 6번 스킬 자동 사용\n\n10~20초 무작위 간격 적용"
+  "releaseNotes": "삶은 계란 음식 아이콘 인식 추가\n\n기존 음식 인식 유지"
 }
