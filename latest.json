@@ -1,16 +1,19 @@
 {
-  "versionCode": 56,
-  "versionName": "1.2.35",
+  "versionCode": 57,
+  "versionName": "1.2.36",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "improvement",
-  "updateType": "improvement",
-  "headline": "뱅가드 기능 삭제",
-  "features": [],
-  "highlights": [],
-  "improvements": [
-    "뱅가드 메뉴·실행 기능 삭제",
-    "어비스·레이드 기능 유지"
+  "releaseType": "update",
+  "updateType": "update",
+  "headline": "함께보기 추가",
+  "features": [
+    "모바일·PC 함께보기 추가",
+    "방 참여자·완료 횟수 확인"
   ],
+  "highlights": [
+    "모바일·PC 함께보기 추가",
+    "방 참여자·완료 횟수 확인"
+  ],
+  "improvements": [],
   "fixes": [],
-  "releaseNotes": "뱅가드 메뉴·실행 기능 삭제\n\n어비스·레이드 기능 유지"
+  "releaseNotes": "모바일·PC 함께보기 추가\n\n방 참여자·완료 횟수 확인"
 }
