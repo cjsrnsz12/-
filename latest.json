@@ -1,19 +1,18 @@
 {
-  "versionCode": 50,
-  "versionName": "1.2.29",
+  "versionCode": 52,
+  "versionName": "1.2.31",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "fix",
-  "headline": "전멸 퇴장·배너 메뉴 인식",
+  "updateType": "fix",
+  "headline": "파티 반복 입장·진행 기록 개선",
+  "features": [],
   "highlights": [],
   "improvements": [
-    "배너 유무에 따른 메뉴 인식"
+    "일반 진행 기록 15분마다 자동 정리",
+    "오류 기록 보관"
   ],
   "fixes": [
-    "메뉴 항목 이동 대응"
+    "파티 반복 시 난이도 선택 인식 개선"
   ],
-  "releaseNotes": "전멸 시 던전 나가기\n\n배너 유무에 따른 메뉴 인식 개선",
-  "updateType": "fix",
-  "features": [
-    "전멸 시 던전 나가기"
-  ]
+  "releaseNotes": "파티 반복 시 난이도 선택 인식 개선\n\n일반 진행 기록 15분마다 자동 정리\n\n오류 기록 보관"
 }
