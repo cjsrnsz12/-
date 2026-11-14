@@ -1,16 +1,16 @@
 {
-  "versionCode": 55,
-  "versionName": "1.2.34",
+  "versionCode": 56,
+  "versionName": "1.2.35",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "improvement",
   "updateType": "improvement",
-  "headline": "삶은 계란 음식 인식 추가",
+  "headline": "뱅가드 기능 삭제",
   "features": [],
   "highlights": [],
   "improvements": [
-    "삶은 계란 음식 아이콘 인식 추가",
-    "기존 음식 인식 유지"
+    "뱅가드 메뉴·실행 기능 삭제",
+    "어비스·레이드 기능 유지"
   ],
   "fixes": [],
-  "releaseNotes": "삶은 계란 음식 아이콘 인식 추가\n\n기존 음식 인식 유지"
+  "releaseNotes": "뱅가드 메뉴·실행 기능 삭제\n\n어비스·레이드 기능 유지"
 }
