@@ -1,18 +1,16 @@
 {
-  "versionCode": 52,
-  "versionName": "1.2.31",
+  "versionCode": 53,
+  "versionName": "1.2.32",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "fix",
-  "updateType": "fix",
-  "headline": "파티 반복 입장·진행 기록 개선",
+  "releaseType": "improvement",
+  "updateType": "improvement",
+  "headline": "화면 분석·기록 처리 최적화",
   "features": [],
   "highlights": [],
   "improvements": [
-    "일반 진행 기록 15분마다 자동 정리",
-    "오류 기록 보관"
+    "화면 분석 반복 계산 최적화",
+    "진행 기록 처리 부하 감소"
   ],
-  "fixes": [
-    "파티 반복 시 난이도 선택 인식 개선"
-  ],
-  "releaseNotes": "파티 반복 시 난이도 선택 인식 개선\n\n일반 진행 기록 15분마다 자동 정리\n\n오류 기록 보관"
+  "fixes": [],
+  "releaseNotes": "화면 분석 반복 계산 최적화\n\n진행 기록 처리 부하 감소"
 }
