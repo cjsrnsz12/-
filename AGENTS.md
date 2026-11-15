@@ -1,3 +1,11 @@
+# 현재 릴리스: 1.2.37 닉네임·공통 플레이어 목록
+
+사용자는 이번 업데이트부터 방 생성 대신 첫 실행에 닉네임을 정하고 모든 사용자가 모바일/PC 공통 플레이어 목록을 보도록 요청했습니다. 공개 항목(닉네임·모바일/PC·실행 상태·콘텐츠·이번 실행 완료 횟수)을 저장 화면에서 안내합니다. 명시적으로 저장한 이후 자동 연결합니다. 예전 shared_room 설정은 새 PlayerSync에서 읽거나 자동 이관하지 않습니다. PlayerApi/PlayerSync/PlayerPanel/PlayerConfig를 사용하고 기존 Room4개 클래스는 삭제했습니다. 이름 저장 전 서비스 자동 시작은 앱에서 이름을 설정하도록 안내합니다.
+
+서버는 사용자의2026-11-15 서버변경 승인 후 적용됐습니다. protocol2 nyacro_players 비공개 스키마/RLS·서버역할만 호출하는 RPC와 공통목록 계약을 사용합니다. 기존protocol1 방 계약은 이전 클라이언트를 위해 유지합니다. 관리키는 서버에만 있고 앱에는 공개endpoint/publishable key만 있습니다. nickname 설정파일 player_presence는 MODE_PRIVATE이고 기존처럼 백업을 끕니다. 단일 별도worker가15초마다 통신하며 게임 캡처/입력과 분리합니다.60초이상 무응답은 목록에서 제외하고100명씩 페이지를 표시합니다. 오래된 시퀀스/응답과 같은 실행의 횟수 감소를 막고 중지 시 횟수 유지, 새 실행0판, 재시작은중지 상태로 보고합니다.
+
+검사: python3 tests/run_tests.py 기존전체회귀, tests/run_player_tests.py JVM 상태 검사, tests/run_player_tests.py --live 실제 Java모바일+PythonPC+배포서버 연동. 최소Context/preferences/clock 대역이며 실제Android UI/게임은 미검증입니다. 서버SQL보안/동의/페이지/토큰/상태/비공개방분리 검사는 PC저장소 server/players-verify.sql에서 transaction rollback으로 수행합니다. Windows PR2 네이티브 UI·EXE·자동교체/재시작 검사를 통과했습니다. PC버전1.1.46, 모바일1.2.37/code58, 상위build1237.py. 아래 이전 방/권한 확인 대기 설명은 과거 이력이며 현재 서버승인/적용은 완료했습니다. 모바일 자동업로드 지침을 적용합니다.
+
 # 현재 릴리스: 1.2.36 모바일·PC 함께보기
 
 사용자는 같은 방에 참여한 사람끼리 닉네임·모바일/PC 사용 여부·몇 판 완료했는지 볼 수 있도록 요청했습니다. 이번 범위는 모바일과 PC 모두이며 이전 ‘모바일만 변경’ 범위는 이전 릴리스에 한합니다. 모바일 자동 업로드 지침을 적용합니다. RoomApi/RoomSync/RoomPanel/RoomConfig를 추가했고 MacroService 시작/완료/중지 및 MainActivity 함께보기 화면만 연결합니다. 게임 인식/입력/엔진·좌표·음식·스킬은 바꾸지 않습니다.
