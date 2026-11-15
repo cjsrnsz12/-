@@ -1,19 +1,20 @@
 {
-  "versionCode": 57,
-  "versionName": "1.2.36",
+  "versionCode": 58,
+  "versionName": "1.2.37",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "update",
   "updateType": "update",
-  "headline": "함께보기 추가",
+  "headline": "사용중인 플레이어 목록",
   "features": [
-    "모바일·PC 함께보기 추가",
-    "방 참여자·완료 횟수 확인"
+    "첫 실행 닉네임 설정",
+    "사용중인 플레이어 목록",
+    "모바일·PC 공통 현황"
   ],
   "highlights": [
-    "모바일·PC 함께보기 추가",
-    "방 참여자·완료 횟수 확인"
+    "첫 실행 닉네임 설정",
+    "사용중인 플레이어 목록"
   ],
   "improvements": [],
   "fixes": [],
-  "releaseNotes": "모바일·PC 함께보기 추가\n\n방 참여자·완료 횟수 확인"
+  "releaseNotes": "첫 실행 닉네임 설정\n\n사용중인 플레이어 목록\n\n모바일·PC 공통 현황"
 }
