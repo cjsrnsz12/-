@@ -1,19 +1,20 @@
 {
-  "versionCode": 60,
-  "versionName": "1.2.39",
+  "versionCode": 61,
+  "versionName": "1.2.40",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
   "releaseType": "fix",
   "updateType": "fix",
-  "headline": "첫 시작 대기 문제 수정",
+  "headline": "태블릿 스킬창·전멸 후 재입장 개선",
   "features": [],
   "highlights": [
-    "시작 대기 문제 수정"
+    "태블릿 화면 인식 개선"
   ],
   "improvements": [
-    "첫 실행 설정 안내 개선"
+    "태블릿 화면 인식 개선"
   ],
   "fixes": [
-    "시작 대기 문제 수정"
+    "스킬창 활성 상태 확인",
+    "전멸 후 재입장 수정"
   ],
-  "releaseNotes": "시작 대기 문제 수정\n\n첫 실행 설정 안내 개선"
+  "releaseNotes": "태블릿 화면 인식 개선\n\n스킬창 활성 상태 확인\n\n전멸 후 재입장 수정"
 }
