@@ -1,19 +1,19 @@
 {
-  "versionCode": 63,
-  "versionName": "1.2.42",
+  "versionCode": 64,
+  "versionName": "1.2.43",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "improvement",
-  "updateType": "improvement",
-  "headline": "화면 분석 최적화",
-  "features": [],
+  "releaseType": "major",
+  "updateType": "major",
+  "headline": "오류 기록과 관리자 보관함",
+  "features": [
+    "오류 기록 저장 및 동의한 기기에서 자동 전송",
+    "관리자 오류 보관함"
+  ],
   "highlights": [
-    "화면 분석 메모리 재사용",
-    "문자 인식 결과 비교 최적화"
+    "오류 기록 저장 및 동의한 기기에서 자동 전송",
+    "관리자 오류 보관함"
   ],
-  "improvements": [
-    "화면 분석 메모리 재사용",
-    "문자 인식 결과 비교 최적화"
-  ],
+  "improvements": [],
   "fixes": [],
-  "releaseNotes": "화면 분석 메모리 재사용\n\n문자 인식 결과 비교 최적화"
+  "releaseNotes": "오류 기록 저장 및 동의한 기기에서 자동 전송\n\n관리자 오류 보관함"
 }
