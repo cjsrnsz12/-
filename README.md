@@ -2,10 +2,15 @@
 
 이 저장소는 냐크로 APK 및 최신 버전 정보를 제공합니다.
 
-현재 배포 버전: **1.2.40** (버전 코드 61)
+현재 배포 버전: **1.2.42** (버전 코드 63)
 
 - [최신 APK 다운로드](https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk)
 - [업데이트 정보](https://raw.githubusercontent.com/cjsrnsz12/-/main/latest.json)
+
+## 1.2.42 화면 분석 최적화
+
+- 화면 분석에 쓰는 메모리를 재사용합니다.
+- 문자 인식 결과를 비교하는 처리를 최적화했습니다.
 
 ## 1.2.40 태블릿 스킬창·전멸 후 재입장
 
