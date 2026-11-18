@@ -1,20 +1,19 @@
 {
-  "versionCode": 61,
-  "versionName": "1.2.40",
+  "versionCode": 63,
+  "versionName": "1.2.42",
   "apkUrl": "https://raw.githubusercontent.com/cjsrnsz12/-/main/AbyssHelper-latest.apk",
-  "releaseType": "fix",
-  "updateType": "fix",
-  "headline": "태블릿 스킬창·전멸 후 재입장 개선",
+  "releaseType": "improvement",
+  "updateType": "improvement",
+  "headline": "화면 분석 최적화",
   "features": [],
   "highlights": [
-    "태블릿 화면 인식 개선"
+    "화면 분석 메모리 재사용",
+    "문자 인식 결과 비교 최적화"
   ],
   "improvements": [
-    "태블릿 화면 인식 개선"
+    "화면 분석 메모리 재사용",
+    "문자 인식 결과 비교 최적화"
   ],
-  "fixes": [
-    "스킬창 활성 상태 확인",
-    "전멸 후 재입장 수정"
-  ],
-  "releaseNotes": "태블릿 화면 인식 개선\n\n스킬창 활성 상태 확인\n\n전멸 후 재입장 수정"
+  "fixes": [],
+  "releaseNotes": "화면 분석 메모리 재사용\n\n문자 인식 결과 비교 최적화"
 }
